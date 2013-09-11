@@ -6,17 +6,17 @@
     </li>
     {% else %}
     <li>
-      <a href="/">&lt;&lt;</a>
+      <a href="{{ BASE_PATH }}/">&lt;&lt;</a>
     </li>
     {% endif %}
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
         <li class="prev">
-          <a href="/">&lt;</a>
+          <a href="{{ BASE_PATH }}/">&lt;</a>
         </li>
       {% else %}
         <li class="prev">
-          <a href="/page{{ paginator.previous_page }}/">&lt;</a>
+          <a href="{{ BASE_PATH }}/page{{ paginator.previous_page }}/">&lt;</a>
         </li>
       {% endif %}
     {% else %}
@@ -89,11 +89,11 @@
         </li>
       {% elsif count == '1' %}
         <li>
-          <a href="/">{{ count }}</a>
+          <a href="{{ BASE_PATH }}/">{{ count }}</a>
         </li>
       {% else %}
         <li>
-          <a href="/page{{ count }}/">{{ count }}</a>
+          <a href="{{ BASE_PATH }}/page{{ count }}/">{{ count }}</a>
         </li>
       {% endif %}
     {% endfor %}
@@ -101,7 +101,7 @@
 
     {% if paginator.next_page %}
       <li class="next">
-        <a href="/page{{ paginator.next_page }}/">&gt;</a>
+        <a href="{{ BASE_PATH }}/page{{ paginator.next_page }}/">&gt;</a>
       </li>
     {% else %}
       <li class="next disabled">
@@ -114,7 +114,7 @@
     </li>
     {% else %}
     <li>
-      <a href="/page{{ paginator.total_pages }}/">&gt;&gt;</a>
+      <a href="{{ BASE_PATH }}/page{{ paginator.total_pages }}/">&gt;&gt;</a>
     </li>
     {% endif %}
   </ul>
