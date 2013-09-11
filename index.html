@@ -11,7 +11,7 @@ tagline: "Impossible is nothing！ Email: yanghui1986527#gmail.com QQ: 273247606
 <div>
 	<h2>
 		<img src="http://www.gravatar.com/avatar/536173c832510de35c444aa7aae169e3.jpg?s=36" />
-<a href="{{ post.url }}">{{ post.title }}</a>
+<a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
 	</h2>
 
 	<p>
@@ -42,7 +42,7 @@ tagline: "Impossible is nothing！ Email: yanghui1986527#gmail.com QQ: 273247606
 
 	<div class="show" style="padding: 10px 0;">
 	{{ post.content | split: '<!-- more -->' | first }}
-		&nbsp;&nbsp;<a href="{{ post.url }}"><h3>阅读全文</h3></a>
+		&nbsp;&nbsp;<a href="{{ BASE_PATH }}{{ post.url }}"><h3>阅读全文</h3></a>
 	</div>
 
 	<div class="show">
