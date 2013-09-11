@@ -5,6 +5,69 @@ header : Impossible is nothing！
 tagline: "Impossible is nothing！ Email: yanghui1986527#gmail.com QQ: 273247606"
 ---
 {% include JB/setup %}
+<hr/>
+{% for post in paginator.posts %}
 
-{% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
+<div>
+	<h2>
+		<img src="http://www.gravatar.com/avatar/536173c832510de35c444aa7aae169e3.jpg?s=36" />
+<a href="{{ post.url }}">{{ post.title }}</a>
+	</h2>
+
+	<p>
+		<span>{{ post.date | date: "%b %d, %Y" }}</span>
+		<!--
+		<span>in</span>
+		
+		{% assign categories_list = post.categories %}
+	    {% if categories_list.first[0] == null %}
+	      {% for category in categories_list %} 
+	      	<span>
+				<a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref">
+	      		{{ category | join: "/" }}
+	      		</a>
+			</span>
+	      {% endfor %}
+	    {% else %}
+	      {% for category in categories_list %} 
+	      	<span>
+				<a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
+	      		{{ category[0] | join: "/" }}
+	      		</a>
+			</span>
+	      {% endfor %}
+	    {% endif %}
+		-->
+	</p>
+
+	<div class="show" style="padding: 10px 0;">
+	{{ post.content | split: '<!-- more -->' | first }}
+		&nbsp;&nbsp;<a href="{{ post.url }}"><h3>阅读全文</h3></a>
+	</div>
+
+	<div class="show">
+	    Tags:&nbsp;
+
+		{% assign tags_list = post.tags %}
+	    {% if tags_list.first[0] == null %}
+	      {% for tag in tags_list %} 
+	      	<span>
+				<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}
+				</a>
+			</span>
+	      {% endfor %}
+	    {% else %}
+	      {% for tag in tags_list %} 
+	      	<span>
+				<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }}
+				</a>
+			</span>
+	      {% endfor %}
+	    {% endif %}
+
+	</div>
+	<hr/>
+</div>
+
+{% endfor %}
+{% include JB/posts_paginator_bs %}

@@ -13,7 +13,7 @@ Jekyll has built in support for syntax highlighting of [over 100
 languages](http://pygments.org/languages/) thanks to
 [Pygments](http://pygments.org/). To use Pygments, you must have Python installed on your
 system and set `pygments` to `true` in your site's configuration file.
-
+<!-- more -->
 To render a code block with syntax highlighting, surround your code as follows:
 
 {% highlight text %}

@@ -41,7 +41,7 @@ E/AndroidRuntime( 3281):        at com.android.internal.os.ZygoteInit$MethodAndA
 E/AndroidRuntime( 3281):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
 E/AndroidRuntime( 3281):        at dalvik.system.NativeStart.main(Native Method)
 {% endhighlight %} 
-
+<!-- more -->
 原因：  
 使用了已经被recycle回收过的无效Bitmap
 
