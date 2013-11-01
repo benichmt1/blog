@@ -3,7 +3,7 @@ layout: post
 title: "idea genymotion"
 description: "idea genymotion"
 category: idea
-tags: [android studio,idea,plugins]
+tags: [android studio, idea, plugins]
 ---
 {% include JB/setup %}
 

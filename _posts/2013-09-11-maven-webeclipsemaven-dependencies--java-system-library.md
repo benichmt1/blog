@@ -3,7 +3,7 @@ layout: post
 title: "解决maven web项目导入eclipse不出现Maven Dependencies 和 Java System Library的问题"
 description: ""
 category: maven
-tags: [maven,eclipse]
+tags: [maven, eclipse]
 ---
 {% include JB/setup %}
 

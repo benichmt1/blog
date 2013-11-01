@@ -3,7 +3,7 @@ layout: post
 title: "android log"
 description: "android log"
 category: android
-tags: [github,android]
+tags: [github, android]
 ---
 {% include JB/setup %}
 

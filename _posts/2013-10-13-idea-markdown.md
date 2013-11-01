@@ -3,7 +3,7 @@ layout: post
 title: "idea markdown"
 description: "idea markdown"
 category: idea
-tags: [android studio,idea,plugins]
+tags: [android studio, idea, plugins]
 ---
 {% include JB/setup %}
 

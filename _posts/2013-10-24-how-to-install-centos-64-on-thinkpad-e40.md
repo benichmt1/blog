@@ -3,7 +3,7 @@ layout: post
 title: "how to install centos 6.4 on thinkpad E40"
 description: "how to install centos 6.4 on thinkpad E40"
 category: centos
-tags: [centos,linux]
+tags: [centos, linux]
 ---
 {% include JB/setup %}
 

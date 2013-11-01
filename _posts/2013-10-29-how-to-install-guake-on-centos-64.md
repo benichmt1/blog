@@ -3,7 +3,7 @@ layout: post
 title: "how to install guake on CentOS 6.4"
 description: "how to install guake on CentOS 6.4"
 category: centos
-tags: [centos,linux]
+tags: [centos, linux]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "How to create a release signed apk file using Gradle?"
 description: "How to create a release signed apk file using Gradle?"
 category: android
-tags: [gradle,android]
+tags: [gradle, android]
 ---
 {% include JB/setup %}
 

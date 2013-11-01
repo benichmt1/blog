@@ -3,7 +3,7 @@ layout: post
 title: "Code snippet highlighting with jekyll"
 description: ""
 category: other
-tags: [jekyll,github]
+tags: [jekyll, github]
 ---
 {% include JB/setup %}
 

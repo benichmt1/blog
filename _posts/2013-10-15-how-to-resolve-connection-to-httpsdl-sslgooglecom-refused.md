@@ -3,7 +3,7 @@ layout: post
 title: "how to resolve “Connection to https://dl ssl.google.com refused”?"
 description: "how to resolve “Connection to https://dl ssl.google.com refused”?"
 category: android
-tags: [android studio,tools]
+tags: [android studio, tools]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "how to install genymotion on ubuntu"
 description: "how to install genymotion on ubuntu"
 category: ubuntu
-tags: [android,ubuntu]
+tags: [android, ubuntu]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "51 android.rules"
 description: "51-android.rules"
 category: android
-tags: [github,android]
+tags: [github, android]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "localization-system"
 description: "localization-system"
 category: tools
-tags: [android,tools]
+tags: [android, tools]
 ---
 {% include JB/setup %}
 
