@@ -7,8 +7,8 @@ tags: [android]
 ---
 {% include JB/setup %}
 
-问题：  
-{% highlight java %}  
+问题：
+{% highlight java %}
 E/AndroidRuntime( 3281): java.lang.RuntimeException: Canvas: trying to use a recycled bitmap android.graphics.Bitmap@40561d70
 E/AndroidRuntime( 3281):        at android.graphics.Canvas.throwIfRecycled(Canvas.java:955)
 E/AndroidRuntime( 3281):        at android.graphics.Canvas.drawBitmap(Canvas.java:1044)
@@ -40,11 +40,12 @@ E/AndroidRuntime( 3281):        at java.lang.reflect.Method.invoke(Method.java:5
 E/AndroidRuntime( 3281):        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:839)
 E/AndroidRuntime( 3281):        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:597)
 E/AndroidRuntime( 3281):        at dalvik.system.NativeStart.main(Native Method)
-{% endhighlight %} 
+{% endhighlight %}
 <!-- more -->
-原因：  
+原因：
 使用了已经被recycle回收过的无效Bitmap
 
-解决办法：  
-方法一：在创建和回收bitmap时，对bitmap设置同步锁；  
+解决办法：
+方法一：在创建和回收bitmap时，对bitmap设置同步锁；
 方法二：参考[http://bbs.csdn.net/topics/390196217](http://bbs.csdn.net/topics/390196217 ) （未验证）。
+
