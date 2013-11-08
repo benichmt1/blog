@@ -6,8 +6,9 @@ category: centos
 tags: [centos]
 ---
 {% include JB/setup %}
+
 If you get the error like "This client is too old to work with working copy" when you use svn client,it means you need a newer svn client.     
-Let's update the svn client on CentOS 6.4 now.      
+Let us update the svn client on CentOS 6.4 now.      
 
 <!-- more -->
 
