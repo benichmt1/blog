@@ -41,7 +41,6 @@ svn --version
 
 if the subversion is successfully installed,you can see the following:      
 {% highlight bash %}
-[snowdream@snowdream ~]$ svn --version
 svn, version 1.8.4 (r1534716)
    compiled Nov  1 2013, 15:45:40 on i686-pc-linux-gnu
 
