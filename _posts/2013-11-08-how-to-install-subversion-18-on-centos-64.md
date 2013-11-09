@@ -39,29 +39,6 @@ sudo rpm -ivh *.rpm
 svn --version
 {% endhighlight %}
 
-if the subversion is successfully installed,you can see the following:      
-{% highlight bash %}
-\[snowdream@snowdream ~\]$ svn --version
-svn, version 1.8.4 (r1534716)
-   compiled Nov  1 2013, 15:45:40 on i686-pc-linux-gnu
-
-Copyright (C) 2013 The Apache Software Foundation.
-This software consists of contributions made by many people;
-see the NOTICE file for more information.
-Subversion is open source software, see http://subversion.apache.org/
-
-The following repository access (RA) modules are available:
-
-* ra_svn : Module for accessing a repository using the svn network protocol.
-  - with Cyrus SASL authentication
-  - handles 'svn' scheme
-* ra_local : Module for accessing a repository on local disk.
-  - handles 'file' scheme
-* ra_serf : Module for accessing a repository via WebDAV protocol using serf.
-  - using serf 1.3.2
-  - handles 'http' scheme
-  - handles 'https' scheme
-{% endhighlight %}
 
 ##Reference:
 1、[http://opensource.wandisco.com/centos/6/svn-1.8/RPMS/i686/](http://opensource.wandisco.com/centos/6/svn-1.8/RPMS/i686/)
