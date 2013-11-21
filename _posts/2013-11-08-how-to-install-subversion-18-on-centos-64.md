@@ -3,7 +3,7 @@ layout: post
 title: "How to install subversion 1.8 on CentOS 6.4"
 description: "How to install subversion 1.8 on CentOS 6.4"
 category: centos
-tags: [centos]
+tags: [centos, linux]
 ---
 {% include JB/setup %}
 
