@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "android downloader 1.0 has been released."
-description: "android downloader 1.0 has been released."
+title: "android downloader 1.0 has been released"
+description: "android downloader 1.0 has been released"
 category: android
 tags: [android, library]
 ---
