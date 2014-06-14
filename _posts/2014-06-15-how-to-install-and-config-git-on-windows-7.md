@@ -51,4 +51,4 @@ Find the dir "etc" in the install dir of git,backup it. and copy the following f
 * [profile](https://raw.githubusercontent.com/snowdream/blog/master/assets/files/profile)  
 into the directy "etc".
 
-That's it,Enjoy it.
+That is it,Enjoy it.
