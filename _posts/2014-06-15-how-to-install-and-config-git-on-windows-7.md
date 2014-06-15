@@ -13,10 +13,10 @@ Download and install git for windows from [http://msysgit.github.io/](http://msy
 Download and install git for windows from [https://code.google.com/p/tortoisegit
 ](https://code.google.com/p/tortoisegit)   
 * for 32-bit OS  
-   [Click to Download TortoiseGit 1.8.9.0 - 32-bit](Download TortoiseGit 1.8.9.0 - 32-bit)   
+   [Click to Download TortoiseGit 1.8.9.0 - 32-bit](http://download.tortoisegit.org/tgit/1.8.9.0/TortoiseGit-1.8.9.0-32bit.msi)   
 * for 64-bit OS   
    [Click to Download TortoiseGit 1.8.9.0 - 64-bit](http://download.tortoisegit.org/tgit/1.8.9.0/TortoiseGit-1.8.9.0-64bit.msi)
-<!-- more -->
+<!-- more -->  
 
 ##Configure
 Open the Git Bash.
