@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How to install and config git on Windows7"
-description: "How to install and config git on Windows7"
+title: "how to import project into intellij with UTF-8"
+description: "how to import project into intellij with UTF-8"
 category: windows
 tags: [windows, git, gradle, android]
 ---
