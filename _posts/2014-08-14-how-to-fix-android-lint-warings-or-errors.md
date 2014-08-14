@@ -43,7 +43,7 @@ android:contentDescription="@null"
 
 **Description:**       
 It's for accessibility for the blind. For accessibility, apps that utilize the contentDescription help blind people navigate by using Android's text-to-speech capabilities.          
-So if someone selects an ImageButton via a trackpad or something, the TTS can speak the contentDescription so they can easily navigate the app. See this for more information.          
+So if someone selects an ImageButton via a trackpad or something, the TTS can speak the contentDescription so they can easily navigate the app. See [this](http://developer.android.com/guide/practices/design/accessibility.html#LabelInputs) for more information.          
     
 **Reference:**    
 1. [http://stackoverflow.com/a/24723362](http://stackoverflow.com/a/24723362)          
