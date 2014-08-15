@@ -23,4 +23,5 @@ group: navigation
 * tutorialspoint [http://www.tutorialspoint.com/index.htm](http://www.tutorialspoint.com/index.htm)
 
 ##Tools
-* YUMI [http://www.pendrivelinux.com/yumi-multiboot-usb-creator/](http://www.pendrivelinux.com/yumi-multiboot-usb-creator/)
+* YUMI [http://www.pendrivelinux.com/yumi-multiboot-usb-creator/](http://www.pendrivelinux.com/yumi-multiboot-usb-creator/) 
+* Rescatux [http://www.supergrubdisk.org/rescatux/](http://www.supergrubdisk.org/rescatux/)
