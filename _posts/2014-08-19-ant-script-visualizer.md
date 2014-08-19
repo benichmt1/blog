@@ -14,6 +14,7 @@ tags: [ant]
 * [ant-script-visualizer][4] - using GraphViz toolkit to generate the final graph.
 * [NAntGraph][5] - using GraphViz toolkit to generate the final graph.
 * [ant-dependency-viewer][6] - using GraphViz toolkit to generate the final graph.
+<!-- more -->  
 
 ##NAntGraph
 It is the recommend ant script visualizer on windows.       
@@ -34,9 +35,13 @@ D:\bin\NAntGraph-2.2>NAntGraph2.exe -buildFile="D:\android-sdk-windows\sdk\tools
 Loading D:\android-sdk-windows\sdk\tools\ant\build.xml
 Generating Graph
 Saving graph image to D:\android-sdk-windows\sdk\tools\ant\build.png
-{% endhighlight %}
+{% endhighlight %}  
 
 
+**Preview :**
+![build.png]({{ BASE_PATH }}/assets/images/build.png)
+
+**Usage :**
 <pre>
 D:\bin\NAntGraph-2.2>NAntGraph2.exe --help
       --out=VALUE
@@ -46,7 +51,6 @@ D:\bin\NAntGraph-2.2>NAntGraph2.exe --help
       --dotscript[=VALUE]
       --font[=VALUE]
       --fontsize[=VALUE]
-{% endhighlight %}
 </pre>
 
 ##Reference
