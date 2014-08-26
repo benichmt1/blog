@@ -28,7 +28,8 @@ Install the chinese input method as follows:
 
 ##4、Axel - The downloader accelerator
 Install as follows:
-[http://www.ha97.com/621.html][4]
+[http://www.ha97.com/621.html][4]     
+[http://blog.sina.com.cn/s/blog_4e7b97f00100e10x.html](http://blog.sina.com.cn/s/blog_4e7b97f00100e10x.html)
 
 ##5、Wireless Driver
 Install as follows:
@@ -40,9 +41,9 @@ Install as follows:
 
 ##7、Chrome
 Install as follows:
-[http://jingyan.baidu.com/article/4b52d702790ddcfc5c774b17.html][7]
-[http://chrome.richardlloyd.org.uk/][8]
-[http://www.cnblogs.com/VincentHome/archive/2013/05/19/3086438.html][9]
+[http://jingyan.baidu.com/article/4b52d702790ddcfc5c774b17.html][7]     
+[http://chrome.richardlloyd.org.uk/][8]      
+[http://www.cnblogs.com/VincentHome/archive/2013/05/19/3086438.html][9]    
 
 ##8、Git
 Install as follows:
