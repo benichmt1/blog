@@ -24,7 +24,8 @@ group: navigation
 
 ##NodeJS
 * nodecloud [http://www.nodecloud.org](http://www.nodecloud.org)
-* 
+* nodejsmodules [https://nodejsmodules.org/](https://nodejsmodules.org/)
+
 ##Tools
 * YUMI [http://www.pendrivelinux.com/yumi-multiboot-usb-creator/](http://www.pendrivelinux.com/yumi-multiboot-usb-creator/) 
 * Rescatux [http://www.supergrubdisk.org/rescatux/](http://www.supergrubdisk.org/rescatux/)
