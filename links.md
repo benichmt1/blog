@@ -29,6 +29,7 @@ group: navigation
 * nodecloud [http://www.nodecloud.org](http://www.nodecloud.org)
 * nodejsmodules [https://nodejsmodules.org/](https://nodejsmodules.org/)
 * howtonode [http://howtonode.org/](http://howtonode.org/)
+* 从零开始nodejs系列文章 [http://blog.fens.me/series-nodejs/](http://blog.fens.me/series-nodejs/)
 
 ##Tools
 * YUMI [http://www.pendrivelinux.com/yumi-multiboot-usb-creator/](http://www.pendrivelinux.com/yumi-multiboot-usb-creator/) 
