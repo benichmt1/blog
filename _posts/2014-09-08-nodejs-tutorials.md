@@ -13,6 +13,7 @@ tags: [nodejs]
 1. ExpressJS: how to output pretty html [http://stackoverflow.com/a/11812841](http://stackoverflow.com/a/11812841)
 1. Node.js 教程   简单的说 Node.js 就是运行在服务端的 JavaScript。      
 [http://www.w3cschool.cc/nodejs/nodejs-tutorial.html](http://www.w3cschool.cc/nodejs/nodejs-tutorial.html)
+1. nodejs中文文档   [https://www.gitbook.io/book/0532/nodejs](https://www.gitbook.io/book/0532/nodejs)
 
 ##Advance
 1. 用NodeJS打造你的静态文件服务器 [http://cnodejs.org/topic/4f16442ccae1f4aa27001071](http://cnodejs.org/topic/4f16442ccae1f4aa27001071)
