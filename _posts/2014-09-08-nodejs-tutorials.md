@@ -14,6 +14,9 @@ tags: [nodejs]
 1. Node.js 教程   简单的说 Node.js 就是运行在服务端的 JavaScript。      
 [http://www.w3cschool.cc/nodejs/nodejs-tutorial.html](http://www.w3cschool.cc/nodejs/nodejs-tutorial.html)
 1. nodejs中文文档   [https://www.gitbook.io/book/0532/nodejs](https://www.gitbook.io/book/0532/nodejs)
+1. Creating RESTful APIs with Express 4   [http://www.sitepoint.com/creating-restful-apis-express-4/](http://www.sitepoint.com/creating-restful-apis-express-4/)
+1. Creating RESTful APIs With NodeJS and MongoDB Tutorial (Part II)   [http://adrianmejia.com/blog/2014/10/01/creating-a-restful-api-tutorial-with-nodejs-and-mongodb/](http://adrianmejia.com/blog/2014/10/01/creating-a-restful-api-tutorial-with-nodejs-and-mongodb/)
+
 
 ##Advance
 1. 用NodeJS打造你的静态文件服务器 [http://cnodejs.org/topic/4f16442ccae1f4aa27001071](http://cnodejs.org/topic/4f16442ccae1f4aa27001071)
