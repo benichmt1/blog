@@ -25,6 +25,7 @@ tags: [nodejs]
 
 ##Books 
 1. 七天学会NodeJS     7-days-nodejs   [https://github.com/nqdeng/7-days-nodejs](https://github.com/nqdeng/7-days-nodejs)
+1. Mixu's Node book   A book about using Node.js    [http://book.mixu.net/node/single.html](http://book.mixu.net/node/single.html)
 
 
 ##Stack Overflow
